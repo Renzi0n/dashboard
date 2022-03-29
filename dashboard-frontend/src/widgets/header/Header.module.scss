@@ -1,0 +1,14 @@
+@use '../../shared/styles/functions' as *;
+
+.header {
+    padding: rem(12px) rem(16px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__nav {
+        width: rem(164px);
+        display: flex;
+        justify-content: space-between;
+    }
+}
